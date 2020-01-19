@@ -1,1 +1,12 @@
 
+		int n=634768;
+		System.out.println("The original number is= "+n);
+		 int sum=0; int r;
+		
+		 while(n>0) {
+	    r=n%10;
+		sum=sum*10+r;
+		n=n/10;
+		 }
+	System.out.println("The reverse number is= "+sum);
+	}
